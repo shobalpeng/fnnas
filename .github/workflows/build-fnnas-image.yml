@@ -413,6 +413,7 @@ jobs:
           auto_kernel: ${{ inputs.auto_kernel }}
           kernel_repo: ${{ inputs.kernel_repo }}
           builder_name: ${{ inputs.builder_name }}
+          fnnas_size: 512/10240
 
       - name: Upload the packaged fnnas
         uses: ncipollo/release-action@main
